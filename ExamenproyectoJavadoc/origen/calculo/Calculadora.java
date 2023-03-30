@@ -1,7 +1,7 @@
 package calculo;
 
 import java.util.Scanner;
-
+/***/
 public class Calculadora {
 
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Calculadora {
 	
 	public static void obtenerCalculo() {
 		Scanner lectura = new Scanner (System.in);
-		System.out.println("Ingrese el número de una de las operaciones: ");
+		System.out.println("Ingrese el nÃºmero de una de las operaciones: ");
 		System.out.println("1 - Suma ");
 		System.out.println("1 - Resta ");
 		System.out.println("3 - Divide");
@@ -28,7 +28,7 @@ public class Calculadora {
         case "1": 
         	System.out.println ("Ha seleccionado sumar"); 
         	lectura = new Scanner (System.in);
-    		System.out.println("Ingrese los números a sumar: ");
+    		System.out.println("Ingrese los nÃºmeros a sumar: ");
     		System.out.println("Numero 1: ");
     		numero1 = lectura.next();
     		System.out.println("Numero 2: ");
@@ -41,7 +41,7 @@ public class Calculadora {
         case "2":
         	System.out.println ("Ha seleccionado restar"); 
         	lectura = new Scanner (System.in);
-    		System.out.println("Ingrese los números a restar: ");
+    		System.out.println("Ingrese los nÃºmeros a restar: ");
     		System.out.println("Numero 1: ");
     		numero1 = lectura.next();
     		System.out.println("Numero 2: ");
@@ -54,7 +54,7 @@ public class Calculadora {
         case "3": 
         	System.out.println ("Ha seleccionado dividir "); 
         	lectura = new Scanner (System.in);
-    		System.out.println("Ingrese los números a dividir: ");
+    		System.out.println("Ingrese los nÃºmeros a dividir: ");
     		System.out.println("Numero 1: ");
     		numero1 = lectura.next();
     		System.out.println("Numero 2: ");
@@ -70,7 +70,7 @@ public class Calculadora {
         case "4":
         	System.out.println ("Ha seleccionado obtener la tabla de multiplicar "); 
         	lectura = new Scanner (System.in);
-    		System.out.println("Ingrese el número a obtener su tabla: ");
+    		System.out.println("Ingrese el nÃºmero a obtener su tabla: ");
     		System.out.println("Numero 1: ");
     		numero1 = lectura.next();
     		calculo = new Calculo(Integer.parseInt(numero1));
@@ -80,7 +80,7 @@ public class Calculadora {
         
         break;
 	} 
-	System.out.println("Finalizadoción del cálculo");
+	System.out.println("FinalizadociÃ³n del cÃ¡lculo");
 	}
 
 }
